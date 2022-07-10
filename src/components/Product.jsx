@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 const Product = (props) => {
   const { product } = props;
   //object destructing by taking props input and assigning to products
   return (
-    <>
+    <Link to={`/products/${product._id}`}>
       <div>
         <img src={product.image} alt="" />
         <div className="text-center">
@@ -18,7 +19,7 @@ const Product = (props) => {
           </button>
         </div>
       </div>
-    </>
+    </Link>
   );
 };
 
