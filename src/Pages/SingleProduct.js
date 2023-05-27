@@ -26,7 +26,7 @@ const SingleProduct = () => {
           <div className="text-md">small</div>
           <div className="font-bold mt-2">Rs 599</div>
           <button className="bg-yellow-500 py-1 px-8 rounded-full font-bold mt-4 ">
-            Add to cart
+            Add To Cart
           </button>
         </div>
       </div>
